@@ -9,7 +9,6 @@ public class WhileLoop : MonoBehaviour
 
 
 
-    // Start is called before the first frame update
     void Start()
     {
         while (cupsInTheSink > 0)
@@ -17,7 +16,9 @@ public class WhileLoop : MonoBehaviour
             Debug.Log("I've washed a cup!");
             cupsInTheSink--;
         }
+
     }
+
 }
 
     
